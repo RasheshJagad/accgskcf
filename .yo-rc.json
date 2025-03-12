@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.5",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "connect-confluence",
+    "libraryId": "629203d0-e831-40ed-a3f3-779c44e4ab80",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "connect-confluence",
+    "solutionShortDescription": "connect-confluence description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

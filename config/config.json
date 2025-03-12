@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-pages-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getPages/GetPagesWebPart.js",
+          "manifest": "./src/webparts/getPages/GetPagesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetPagesWebPartStrings": "lib/webparts/getPages/loc/{locale}.js"
+  }
+}

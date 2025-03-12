@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "connect-confluence-client-side-solution",
+    "id": "629203d0-e831-40ed-a3f3-779c44e4ab80",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "my-gsk.atlassian.net",
+        "scope": "FullControl"
+      }
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "connect-confluence description"
+      },
+      "longDescription": {
+        "default": "connect-confluence description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "connect-confluence Feature",
+        "description": "The feature that activates elements of the connect-confluence solution.",
+        "id": "d8370fde-ee53-446e-96a0-903648a1d014",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/connect-confluence.sppkg"
+  }
+}
